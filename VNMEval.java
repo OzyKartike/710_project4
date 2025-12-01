@@ -1,372 +1,343 @@
+YonkoOzy
+ozydrag
+0.1%
+
+Wise one 🧠 — 2024-04-27 7:53 PM
+no one cares about you
+fuck u? — 2024-10-03 11:11 PM
+@Wise one 🧠
+Image
+Wise one 🧠 — 2024-10-03 11:18 PM
+thanks man
+superstar — 2024-10-04 7:17 AM
+Ayesha that’s so sad😭
+😭
+😭
+😭
+😭
+😭
+Why didn’t you switch to the other guys section
+BiTcHlEsS — 2024-10-04 3:19 PM
+Seeing that you got Khalid and still not switching is something I won’t understand
+superstar — 2024-10-10 9:04 PM
+Image
+superstar — 2024-10-10 9:24 PM
+Image
+BiTcHlEsS — 2025-09-25 10:57 AM
+Attachment file type: acrobat
+CPS843_Assignment_1.pdf
+7.27 MB
+Attachment file type: archive
+843-Quizzes.zip
+2.41 MB
+Attachment file type: acrobat
+Assignment2_Andrew_Le_501090188.pdf
+722.39 KB
+superstar — 2025-09-30 5:37 PM
+https://www.youtube.com/watch?v=OIKL6wFjFOo&ab_channel=NesoAcademy
+YouTube
+Neso Academy
+Introduction to Parsers
+Image
+https://www.youtube.com/watch?v=wQjppolFdas&ab_channel=NesoAcademy
+YouTube
+Neso Academy
+Ambiguous Grammar
+Image
+superstar — 2025-10-31 7:14 PM
+https://drive.google.com/drive/u/1/folders/1uIOp7F3L2yj4dRl37f30XNTkUA7rAY-J
+Google Drive
+^768 project
+Image
+@Wise one 🧠
+did your 768 project work
+can you call me
+superstar — 2025-11-10 7:15 PM
+Project 3
+options {
+  IGNORE_CASE=false;
+  MULTI=true;
+  JJTREE_OUTPUT_DIRECTORY="AST";
+  VISITOR=true;
+  NODE_DEFAULT_VOID=true;
+Expand
+message.txt
+9 KB
+superstar
+ pinned a message to this channel. See all pinned messages. — 2025-11-10 7:15 PM
+superstar — 2025-11-10 7:23 PM
+chmod +x run t
+chmod +x runtests
+superstar — 2025-11-12 10:22 AM
+NOO BRO HE CHANGES SHIT
+superstar — 2025-11-12 11:38 AM
+Okay i think it should still be fine
+Image
+BiTcHlEsS — 2025-11-22 12:50 PM
+Image
+looks like it still works
+superstar — 2025-11-22 12:52 PM
+Okay perfect thank you
+BiTcHlEsS — 2025-11-22 1:09 PM
+idk how much i can change this up tbh
+fuck u? — 2025-11-22 1:10 PM
+Spacing and comments ?
+BiTcHlEsS — 2025-11-22 1:11 PM
+yeah thats pretty much what i did
+superstar — 2025-11-22 1:11 PM
+Wdym just gpt it no
+BiTcHlEsS — 2025-11-22 1:12 PM
+you cant change the actual var names cuz they gave us them
+superstar — 2025-11-22 1:12 PM
+Structure of the code
+Move stuff around
+fake ahraz — 2025-11-23 7:09 PM
+options {
+  IGNORE_CASE=false;
+  MULTI=true;
+  JJTREE_OUTPUT_DIRECTORY="AST";
+  VISITOR=true;
+  // standard options setup
+Expand
+message.txt
+7 KB
+superstar — 2025-11-25 11:49 AM
+ill do project 4
+superstar — 2025-11-25 2:44 PM
+LAB IS DONE GANGY
+Image
+VNM.jjt
+options {
+  IGNORE_CASE=false;
+  MULTI=true;	// This will generate one AST class for each non-suppressed non-terminal
+  JJTREE_OUTPUT_DIRECTORY="AST";  // This will put all your AST classes in the AST directory
+  VISITOR=true;	// This won't be used until the next assignment, but will be needed to make your assignment compile properly
+  VISITOR_EXCEPTION="Exception";
+Expand
+message.txt
+8 KB
+VNMEval.java
 public class VNMEval implements VNMVisitor {
 
-    /* =======================
-       Small helper utilities
-       ======================= */
+    /* Utility helpers */
+    private int asInt(Object o) { return ((Integer)o).intValue(); }
+    private boolean asBool(Object o) { return ((Boolean)o).booleanValue(); }
+Expand
+message.txt
+8 KB
+Image
+superstar — 2025-11-25 7:07 PM
+#include <stdio.h>
+#include <netdb.h>
+#include <sys/types.h>
+#include <sys/socket.h>
+#include <netinet/in.h>
+#include <stdlib.h>
+Expand
+peer.c
+11 KB
+#include <sys/types.h>
+#include <sys/socket.h>
+#include <netinet/in.h> 
+#include <stdlib.h>
+#include <string.h>
+#include <netdb.h> 
+Expand
+server.c
+9 KB
+@BiTcHlEsS  you can use this to submit
+@BookBoy
+fuck u? — 2025-11-25 7:15 PM
+@BookBoy can you please review the codes and learn them especially the peer file
+BookBoy — 2025-11-25 10:30 PM
+Ok
+Js for u
+I will
+Cus u asked nucely
+superstar — 2025-11-25 10:50 PM
+Image
+BiTcHlEsS — Yesterday at 1:51 PM
+Image
+BookBoy — 7:08 PM
+options {
+  IGNORE_CASE=false;
+  MULTI=true;	// This will generate one AST class for each non-suppressed non-terminal
+  JJTREE_OUTPUT_DIRECTORY="AST";  // This will put all your AST classes in the AST directory
+  VISITOR=true;	// This won't be used until the next assignment, but will be needed to make your assignment compile properly
+  VISITOR_EXCEPTION="Exception";
+Expand
+message.txt
+9 KB
+ignore this^
+﻿
+public class VNMEval implements VNMVisitor {
 
-    // In my evaluator I pass things around as raw Objects, so I made tiny
-    // helper casts to avoid repeating (Integer)obj and (Boolean)obj everywhere.
-    private int asInt(Object o) {
-        return ((Integer) o).intValue();
-    }
+    /* Utility helpers */
+    private int asInt(Object o) { return ((Integer)o).intValue(); }
+    private boolean asBool(Object o) { return ((Boolean)o).booleanValue(); }
 
-    private boolean asBool(Object o) {
-        return ((Boolean) o).booleanValue();
-    }
-
-    // The parser stores string literals with quotes included.
-    // Here I strip off the leading and trailing quote characters.
     private String stripQuotes(String s) {
-        if (s != null && s.length() >= 2 && s.startsWith("\"") && s.endsWith("\"")) {
+        if (s.startsWith("\"") && s.endsWith("\""))
             return s.substring(1, s.length() - 1);
-        }
         return s;
     }
 
-    // This is my generic "walk all children" helper.
-    // Any node that doesn't have special behavior just uses this.
-    private Object defaultVisit(SimpleNode node, Object data) throws Exception {
-        Object lastResult = null;
-        int numKids = node.jjtGetNumChildren();
-
-        // I visit children left-to-right and remember the value of the last one.
-        for (int i = 0; i < numKids; i++) {
-            lastResult = node.jjtGetChild(i).jjtAccept(this, null);
-        }
-
-        // For things like a block/body, I don't need the result, but I keep
-        // this return to be consistent with the Visitor API.
-        return lastResult;
+    public Object defaultVisit(SimpleNode node, Object data) throws Exception {
+        Object result = null;
+        for (int i = 0; i < node.jjtGetNumChildren(); i++)
+            result = node.jjtGetChild(i).jjtAccept(this, null);
+        return result;
     }
 
-    /* =======================
-       GENERIC / STRUCTURAL NODES
-       ======================= */
+    /* GENERIC NODES */
+    public Object visit(SimpleNode n, Object d) throws Exception { return defaultVisit(n,d); }
+    public Object visit(ASTbody n, Object d) throws Exception { return defaultVisit(n,d); }
+    public Object visit(ASTclause n, Object d) throws Exception { return defaultVisit(n,d); }
+    public Object visit(ASTvar_decl n, Object d) throws Exception { return null; }
+    public Object visit(ASTfn_decl n, Object d) throws Exception { return null; }
+    public Object visit(ASTident_list n, Object d) throws Exception { return null; }
+    public Object visit(ASTfn_call n, Object d) throws Exception { return null; }
+    public Object visit(ASTboolean_call n, Object d) throws Exception { return null; }
+    public Object visit(ASTexp_list n, Object d) throws Exception { return defaultVisit(n,d); }
+    public Object visit(ASTcondition_list n, Object d) throws Exception { return defaultVisit(n,d); }
 
-    // For the "plain" SimpleNode, I just recurse on children.
-    public Object visit(SimpleNode n, Object d) throws Exception { 
-        return defaultVisit(n, d); 
-    }
-
-    public Object visit(ASTbody n, Object d) throws Exception { 
-        return defaultVisit(n, d); 
-    }
-
-    public Object visit(ASTclause n, Object d) throws Exception { 
-        return defaultVisit(n, d); 
-    }
-
-    // For variable declarations and function declarations, I’m not actually
-    // doing any runtime work yet, so I just return null.
-    public Object visit(ASTvar_decl n, Object d) throws Exception { 
-        return null; 
-    }
-
-    public Object visit(ASTfn_decl n, Object d) throws Exception { 
-        return null; 
-    }
-
-    public Object visit(ASTident_list n, Object d) throws Exception { 
-        return null; 
-    }
-
-    public Object visit(ASTfn_call n, Object d) throws Exception { 
-        return null; 
-    }
-
-    public Object visit(ASTboolean_call n, Object d) throws Exception { 
-        return null; 
-    }
-
-    public Object visit(ASTexp_list n, Object d) throws Exception { 
-        return defaultVisit(n, d); 
-    }
-
-    public Object visit(ASTcondition_list n, Object d) throws Exception { 
-        return defaultVisit(n, d); 
-    }
-
-    /* =======================
-       PRINT / PRINTLN
-       ======================= */
-
-    // PRINT just evaluates each child expression and prints them in order,
-    // staying on the same line.
+    /* PRINT */
     public Object visit(ASTPrint n, Object d) throws Exception {
-        int childCount = n.jjtGetNumChildren();
-
-        for (int i = 0; i < childCount; i++) {
-            Object value = n.jjtGetChild(i).jjtAccept(this, null);
-            if (value != null) {
-                System.out.print(value.toString());
-            }
+        for (int i = 0; i < n.jjtGetNumChildren(); i++) {
+            Object v = n.jjtGetChild(i).jjtAccept(this, null);
+            if (v != null) System.out.print(v.toString());
         }
         return null;
     }
 
-    // PRINTLN behaves exactly like PRINT, but at the end I add a newline.
     public Object visit(ASTPrint_ln n, Object d) throws Exception {
-        int childCount = n.jjtGetNumChildren();
-
-        for (int i = 0; i < childCount; i++) {
-            Object value = n.jjtGetChild(i).jjtAccept(this, null);
-            if (value != null) {
-                System.out.print(value.toString());
-            }
+        for (int i = 0; i < n.jjtGetNumChildren(); i++) {
+            Object v = n.jjtGetChild(i).jjtAccept(this, null);
+            if (v != null) System.out.print(v.toString());
         }
-
-        // This is the only difference from ASTPrint: I append a newline.
         System.out.println();
         return null;
     }
 
-    /* =======================
-       ASSIGNMENT (unused)
-       ======================= */
+    /* ASSIGN — Not used */
+    public Object visit(ASTAssign n, Object d) throws Exception { return null; }
 
-    // The grammar has Assign nodes, but in this simplified evaluator
-    // I'm not actually storing any variables, so I just ignore them.
-    public Object visit(ASTAssign n, Object d) throws Exception { 
-        return null; 
-    }
-
-    /* =======================
-       IF / ELIF / ELSE
-       ======================= */
-
-    // The ASTIf node is structured as:
-    //   child 0: condition
-    //   child 1: "then" clause
-    //   child 2: optional "else / elif" part
+    /* IF / ELIF / ELSE */
     public Object visit(ASTIf n, Object d) throws Exception {
-        boolean conditionResult = asBool(n.jjtGetChild(0).jjtAccept(this, null));
-
-        if (conditionResult) {
-            // If the condition is true, I evaluate the "then" body.
+        boolean cond = asBool(n.jjtGetChild(0).jjtAccept(this, null));
+        if (cond) {
             n.jjtGetChild(1).jjtAccept(this, null);
         } else if (n.jjtGetNumChildren() > 2) {
-            // Otherwise, if there is an else/elif part, I evaluate that.
             n.jjtGetChild(2).jjtAccept(this, null);
         }
-
         return null;
     }
 
-    // The NULL node represents an empty else branch (#NULL in the grammar),
-    // so there's simply nothing to do at evaluation time.
-    public Object visit(ASTNULL n, Object d) throws Exception { 
-        return null; 
-    }
+    public Object visit(ASTNULL n, Object d) throws Exception { return null; }
 
-    /* =======================
-       BOOLEAN LOGIC
-       ======================= */
-
-    // Logical OR:
-    // I short-circuit by evaluating the left child first. If it's true,
-    // I don't need to look at the right side.
+    /* BOOLEAN LOGIC */
     public Object visit(ASTor n, Object d) throws Exception {
         boolean left = asBool(n.jjtGetChild(0).jjtAccept(this, null));
-        if (left) {
-            return Boolean.TRUE;
-        }
-        boolean right = asBool(n.jjtGetChild(1).jjtAccept(this, null));
-        return Boolean.valueOf(right);
+        if (left) return Boolean.TRUE;
+        return Boolean.valueOf(asBool(n.jjtGetChild(1).jjtAccept(this, null)));
     }
 
-    // Logical AND:
-    // I also short-circuit here. If the left side is false,
-    // there's no reason to evaluate the right side.
     public Object visit(ASTand n, Object d) throws Exception {
         boolean left = asBool(n.jjtGetChild(0).jjtAccept(this, null));
-        if (!left) {
-            return Boolean.FALSE;
-        }
-        boolean right = asBool(n.jjtGetChild(1).jjtAccept(this, null));
-        return Boolean.valueOf(right);
+        if (!left) return Boolean.FALSE;
+        return Boolean.valueOf(asBool(n.jjtGetChild(1).jjtAccept(this, null)));
     }
 
-    // Logical NOT:
-    // Just flips the boolean value of its single child.
     public Object visit(ASTnot n, Object d) throws Exception {
-        boolean inner = asBool(n.jjtGetChild(0).jjtAccept(this, null));
-        return Boolean.valueOf(!inner);
+        return Boolean.valueOf(!asBool(n.jjtGetChild(0).jjtAccept(this, null)));
     }
 
-    /* =======================
-       COMPARISONS
-       ======================= */
-
-    // Generic comparison node: the shape is
-    //   child 0: left expression  (L)
-    //   child 1: comparator node  (<, <=, ==, etc.)
-    //   child 2: right expression (R)
+    /* COMPARISONS */
     public Object visit(ASTcomparison n, Object d) throws Exception {
-        int leftValue  = asInt(n.jjtGetChild(0).jjtAccept(this, null));
-        int rightValue = asInt(n.jjtGetChild(2).jjtAccept(this, null));
+        int L = asInt(n.jjtGetChild(0).jjtAccept(this, null));
+        int R = asInt(n.jjtGetChild(2).jjtAccept(this, null));
 
-        SimpleNode operatorNode = (SimpleNode) n.jjtGetChild(1);
+        SimpleNode op = (SimpleNode)n.jjtGetChild(1);
 
-        // I test which specific comparator node this is and return the right boolean.
-        if (operatorNode instanceof ASTle) {
-            return Boolean.valueOf(leftValue < rightValue);
-        }
-        if (operatorNode instanceof ASTleq) {
-            return Boolean.valueOf(leftValue <= rightValue);
-        }
-        if (operatorNode instanceof ASTgre) {
-            return Boolean.valueOf(leftValue > rightValue);
-        }
-        if (operatorNode instanceof ASTgeq) {
-            return Boolean.valueOf(leftValue >= rightValue);
-        }
-        if (operatorNode instanceof ASTeq) {
-            return Boolean.valueOf(leftValue == rightValue);
-        }
-        if (operatorNode instanceof ASTneq) {
-            return Boolean.valueOf(leftValue != rightValue);
-        }
+        if (op instanceof ASTle)  return Boolean.valueOf(L < R);
+        if (op instanceof ASTleq) return Boolean.valueOf(L <= R);
+        if (op instanceof ASTgre) return Boolean.valueOf(L > R);
+        if (op instanceof ASTgeq) return Boolean.valueOf(L >= R);
+        if (op instanceof ASTeq)  return Boolean.valueOf(L == R);
+        if (op instanceof ASTneq) return Boolean.valueOf(L != R);
 
-        // If I ever hit a comparator I don't recognize, I play it safe and return false.
         return Boolean.FALSE;
     }
 
-    // The individual comparator nodes themselves don't evaluate to any direct value.
-    // They're only used as "tags" inside ASTcomparison.
-    public Object visit(ASTle n, Object d)   throws Exception { return null; }
-    public Object visit(ASTleq n, Object d)  throws Exception { return null; }
-    public Object visit(ASTgre n, Object d)  throws Exception { return null; }
-    public Object visit(ASTgeq n, Object d)  throws Exception { return null; }
-    public Object visit(ASTeq n, Object d)   throws Exception { return null; }
-    public Object visit(ASTneq n, Object d)  throws Exception { return null; }
-    public Object visit(ASTin n, Object d)   throws Exception { return null; }
-    public Object visit(ASTnotin n, Object d)throws Exception { return null; }
+    public Object visit(ASTle n,Object d)throws Exception { return null; }
+    public Object visit(ASTleq n,Object d)throws Exception { return null; }
+    public Object visit(ASTgre n,Object d)throws Exception { return null; }
+    public Object visit(ASTgeq n,Object d)throws Exception { return null; }
+    public Object visit(ASTeq n,Object d)throws Exception { return null; }
+    public Object visit(ASTneq n,Object d)throws Exception { return null; }
+    public Object visit(ASTin n,Object d)throws Exception { return null; }
+    public Object visit(ASTnotin n,Object d)throws Exception { return null; }
 
-    /* =======================
-       ARITHMETIC EXPRESSIONS
-       ======================= */
-
-    // ASTsum represents a sequence of terms being added together.
-    // The first child is the base, and the rest are added on top.
+    /* ARITHMETIC */
     public Object visit(ASTsum n, Object d) throws Exception {
-        int numChildren = n.jjtGetNumChildren();
-        int result = asInt(n.jjtGetChild(0).jjtAccept(this, null));
-
-        for (int i = 1; i < numChildren; i++) {
-            result += asInt(n.jjtGetChild(i).jjtAccept(this, null));
-        }
-
-        return Integer.valueOf(result);
+        int total = asInt(n.jjtGetChild(0).jjtAccept(this, null));
+        for (int i = 1; i < n.jjtGetNumChildren(); i++)
+            total += asInt(n.jjtGetChild(i).jjtAccept(this, null));
+        return Integer.valueOf(total);
     }
 
-    // ASTpos is essentially a no-op unary plus.
-    // I just return whatever the child evaluates to.
     public Object visit(ASTpos n, Object d) throws Exception {
         return n.jjtGetChild(0).jjtAccept(this, null);
     }
 
-    // ASTneg is unary minus: it negates the integer value of its child.
     public Object visit(ASTneg n, Object d) throws Exception {
-        int value = asInt(n.jjtGetChild(0).jjtAccept(this, null));
-        return Integer.valueOf(-value);
+        return Integer.valueOf(-asInt(n.jjtGetChild(0).jjtAccept(this, null)));
     }
 
-    // ASTmul represents chained multiplication.
-    // Like sum, the first child is the base and I multiply by each subsequent child.
     public Object visit(ASTmul n, Object d) throws Exception {
-        int numChildren = n.jjtGetNumChildren();
-        int product = asInt(n.jjtGetChild(0).jjtAccept(this, null));
-
-        for (int i = 1; i < numChildren; i++) {
-            product *= asInt(n.jjtGetChild(i).jjtAccept(this, null));
-        }
-
-        return Integer.valueOf(product);
+        int total = asInt(n.jjtGetChild(0).jjtAccept(this, null));
+        for (int i = 1; i < n.jjtGetNumChildren(); i++)
+            total *= asInt(n.jjtGetChild(i).jjtAccept(this, null));
+        return Integer.valueOf(total);
     }
 
-    // ASTdiv does chained integer division, left-associative.
     public Object visit(ASTdiv n, Object d) throws Exception {
-        int numChildren = n.jjtGetNumChildren();
-        int quotient = asInt(n.jjtGetChild(0).jjtAccept(this, null));
-
-        for (int i = 1; i < numChildren; i++) {
-            quotient /= asInt(n.jjtGetChild(i).jjtAccept(this, null));
-        }
-
-        return Integer.valueOf(quotient);
+        int total = asInt(n.jjtGetChild(0).jjtAccept(this, null));
+        for (int i = 1; i < n.jjtGetNumChildren(); i++)
+            total /= asInt(n.jjtGetChild(i).jjtAccept(this, null));
+        return Integer.valueOf(total);
     }
 
-    // ASTmod is modulus; here I only use two children: L % R.
     public Object visit(ASTmod n, Object d) throws Exception {
-        int left  = asInt(n.jjtGetChild(0).jjtAccept(this, null));
-        int right = asInt(n.jjtGetChild(1).jjtAccept(this, null));
-        return Integer.valueOf(left % right);
+        int L = asInt(n.jjtGetChild(0).jjtAccept(this, null));
+        int R = asInt(n.jjtGetChild(1).jjtAccept(this, null));
+        return Integer.valueOf(L % R);
     }
 
-    /* =======================
-       LITERALS
-       ======================= */
-
-    // A numeric literal is stored in the AST node's value as a String.
-    // I parse it to an int and then wrap it as an Integer.
+    /* LITERALS */
     public Object visit(ASTnumber n, Object d) throws Exception {
-        String text = (String) n.jjtGetValue();
-        return Integer.valueOf(Integer.parseInt(text));
+        return Integer.valueOf(Integer.parseInt((String)n.jjtGetValue()));
     }
 
-    // A string literal includes quotes; I remove them with stripQuotes().
     public Object visit(ASTstring n, Object d) throws Exception {
-        String raw = (String) n.jjtGetValue();
-        return stripQuotes(raw);
+        return stripQuotes((String)n.jjtGetValue());
     }
 
-    // For RETURN, I just walk its children in case there is an expression.
-    // The actual "return handling" is not implemented here, but this allows
-    // me to reuse the same visitor for evaluation.
     public Object visit(ASTReturn node, Object data) throws Exception {
         return defaultVisit(node, data);
     }
 
-    // Boolean literals map directly to Java Boolean constants.
-    public Object visit(ASTTRUE n, Object d) throws Exception { 
-        return Boolean.TRUE; 
-    }
+    public Object visit(ASTTRUE n, Object d) throws Exception { return Boolean.TRUE; }
+    public Object visit(ASTFALSE n, Object d) throws Exception { return Boolean.FALSE; }
 
-    public Object visit(ASTFALSE n, Object d) throws Exception { 
-        return Boolean.FALSE; 
-    }
+    /* MISC required nodes */
+    public Object visit(ASTidnum n,Object d)throws Exception{ return null; }
+    public Object visit(ASTidbool n,Object d)throws Exception{ return null; }
+    public Object visit(ASTidvec n,Object d)throws Exception{ return null; }
+    public Object visit(ASTvec_const n,Object d)throws Exception{ return null; }
 
-    /* =======================
-       MISC / PLACEHOLDER NODES
-       ======================= */
-
-    // Identifier nodes and vector-related nodes exist in the grammar,
-    // but in this simplified evaluator I don't actually resolve them
-    // to any stored values yet, so they just return null.
-
-    public Object visit(ASTidnum n, Object d) throws Exception { 
-        return null; 
-    }
-
-    public Object visit(ASTidbool n, Object d) throws Exception { 
-        return null; 
-    }
-
-    public Object visit(ASTidvec n, Object d) throws Exception { 
-        return null; 
-    }
-
-    public Object visit(ASTvec_const n, Object d) throws Exception { 
-        return null; 
-    }
-
-    // Similarly, FOR and WHILE structures are present in the AST,
-    // but I'm not interpreting them here; they are placeholders.
-    public Object visit(ASTFor n, Object d) throws Exception { 
-        return null; 
-    }
-
-    public Object visit(ASTWhile n, Object d) throws Exception { 
-        return null; 
-    }
+    public Object visit(ASTFor n,Object d)throws Exception{ return null; }
+    public Object visit(ASTWhile n,Object d)throws Exception{ return null; }
 }
+message.txt
+8 KB

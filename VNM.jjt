@@ -1,3 +1,175 @@
+YonkoOzy
+ozydrag
+0.1%
+
+Wise one 🧠 — 2024-04-27 7:53 PM
+no one cares about you
+fuck u? — 2024-10-03 11:11 PM
+@Wise one 🧠
+Image
+Wise one 🧠 — 2024-10-03 11:18 PM
+thanks man
+superstar — 2024-10-04 7:17 AM
+Ayesha that’s so sad😭
+😭
+😭
+😭
+😭
+😭
+Why didn’t you switch to the other guys section
+BiTcHlEsS — 2024-10-04 3:19 PM
+Seeing that you got Khalid and still not switching is something I won’t understand
+superstar — 2024-10-10 9:04 PM
+Image
+superstar — 2024-10-10 9:24 PM
+Image
+BiTcHlEsS — 2025-09-25 10:57 AM
+Attachment file type: acrobat
+CPS843_Assignment_1.pdf
+7.27 MB
+Attachment file type: archive
+843-Quizzes.zip
+2.41 MB
+Attachment file type: acrobat
+Assignment2_Andrew_Le_501090188.pdf
+722.39 KB
+superstar — 2025-09-30 5:37 PM
+https://www.youtube.com/watch?v=OIKL6wFjFOo&ab_channel=NesoAcademy
+YouTube
+Neso Academy
+Introduction to Parsers
+Image
+https://www.youtube.com/watch?v=wQjppolFdas&ab_channel=NesoAcademy
+YouTube
+Neso Academy
+Ambiguous Grammar
+Image
+superstar — 2025-10-31 7:14 PM
+https://drive.google.com/drive/u/1/folders/1uIOp7F3L2yj4dRl37f30XNTkUA7rAY-J
+Google Drive
+^768 project
+Image
+@Wise one 🧠
+did your 768 project work
+can you call me
+superstar — 2025-11-10 7:15 PM
+Project 3
+options {
+  IGNORE_CASE=false;
+  MULTI=true;
+  JJTREE_OUTPUT_DIRECTORY="AST";
+  VISITOR=true;
+  NODE_DEFAULT_VOID=true;
+Expand
+message.txt
+9 KB
+superstar
+ pinned a message to this channel. See all pinned messages. — 2025-11-10 7:15 PM
+superstar — 2025-11-10 7:23 PM
+chmod +x run t
+chmod +x runtests
+superstar — 2025-11-12 10:22 AM
+NOO BRO HE CHANGES SHIT
+superstar — 2025-11-12 11:38 AM
+Okay i think it should still be fine
+Image
+BiTcHlEsS — 2025-11-22 12:50 PM
+Image
+looks like it still works
+superstar — 2025-11-22 12:52 PM
+Okay perfect thank you
+BiTcHlEsS — 2025-11-22 1:09 PM
+idk how much i can change this up tbh
+fuck u? — 2025-11-22 1:10 PM
+Spacing and comments ?
+BiTcHlEsS — 2025-11-22 1:11 PM
+yeah thats pretty much what i did
+superstar — 2025-11-22 1:11 PM
+Wdym just gpt it no
+BiTcHlEsS — 2025-11-22 1:12 PM
+you cant change the actual var names cuz they gave us them
+superstar — 2025-11-22 1:12 PM
+Structure of the code
+Move stuff around
+fake ahraz — 2025-11-23 7:09 PM
+options {
+  IGNORE_CASE=false;
+  MULTI=true;
+  JJTREE_OUTPUT_DIRECTORY="AST";
+  VISITOR=true;
+  // standard options setup
+Expand
+message.txt
+7 KB
+superstar — 2025-11-25 11:49 AM
+ill do project 4
+superstar — 2025-11-25 2:44 PM
+LAB IS DONE GANGY
+Image
+VNM.jjt
+options {
+  IGNORE_CASE=false;
+  MULTI=true;	// This will generate one AST class for each non-suppressed non-terminal
+  JJTREE_OUTPUT_DIRECTORY="AST";  // This will put all your AST classes in the AST directory
+  VISITOR=true;	// This won't be used until the next assignment, but will be needed to make your assignment compile properly
+  VISITOR_EXCEPTION="Exception";
+Expand
+message.txt
+8 KB
+VNMEval.java
+public class VNMEval implements VNMVisitor {
+
+    /* Utility helpers */
+    private int asInt(Object o) { return ((Integer)o).intValue(); }
+    private boolean asBool(Object o) { return ((Boolean)o).booleanValue(); }
+Expand
+message.txt
+8 KB
+Image
+superstar — 2025-11-25 7:07 PM
+#include <stdio.h>
+#include <netdb.h>
+#include <sys/types.h>
+#include <sys/socket.h>
+#include <netinet/in.h>
+#include <stdlib.h>
+Expand
+peer.c
+11 KB
+#include <sys/types.h>
+#include <sys/socket.h>
+#include <netinet/in.h> 
+#include <stdlib.h>
+#include <string.h>
+#include <netdb.h> 
+Expand
+server.c
+9 KB
+@BiTcHlEsS  you can use this to submit
+@BookBoy
+fuck u? — 2025-11-25 7:15 PM
+@BookBoy can you please review the codes and learn them especially the peer file
+BookBoy — 2025-11-25 10:30 PM
+Ok
+Js for u
+I will
+Cus u asked nucely
+superstar — 2025-11-25 10:50 PM
+Image
+BiTcHlEsS — Yesterday at 1:51 PM
+Image
+BookBoy — 7:08 PM
+options {
+  IGNORE_CASE=false;
+  MULTI=true;	// This will generate one AST class for each non-suppressed non-terminal
+  JJTREE_OUTPUT_DIRECTORY="AST";  // This will put all your AST classes in the AST directory
+  VISITOR=true;	// This won't be used until the next assignment, but will be needed to make your assignment compile properly
+  VISITOR_EXCEPTION="Exception";
+Expand
+message.txt
+9 KB
+ignore this^
+﻿
 options {
   IGNORE_CASE=false;
   MULTI=true;	// This will generate one AST class for each non-suppressed non-terminal
@@ -149,7 +321,6 @@ void body()		 :
 void clause()		 :
 {}
 {	(statement() ";")+
-// Note: clause requires at least one statement, body allows zero or more.
 }
 
 //---------------------------   DECLARATIONS ------------------------------------------------
@@ -225,29 +396,19 @@ void println_stat() #Print_ln :
 }
 
 // *** FIXED: allow bool_simple (TRUE/FALSE) in print_list ***
-// In the original version of this language, PRINT could only handle expressions,
-// strings, and boolean identifiers. In this lab, I wanted to also be able to
-// print raw boolean literals (#1 / #0). To make that work, I added bool_simple()
-// into the allowed alternatives. This keeps the overall structure the same
-// (a comma-separated list), but slightly widens what each element can be.
 void print_list() #void :
 {}
 {
-  // First printable item
-  (
-    expression()
+  ( expression()
   | string()
   | idbool()
-  | bool_simple()     // my addition: this includes TRUE/FALSE tokens as well
+  | bool_simple()
   )
-  // Zero or more ", <item>" after
-  (
-    ","
-    (
-      expression()
+  ( ","
+    ( expression()
     | string()
     | idbool()
-    | bool_simple()   // same extended set for subsequent items
+    | bool_simple()
     )
   )*
 }
@@ -397,71 +558,25 @@ void bool_simple()	#void	 :
 //---------------------------   TERMINALS WITH VALUES  --------------------------------------
 
 // *** FIXED: use t.image instead of t.getValue() everywhere ***
-// In the original skeleton, the terminals used t.getValue(), which is usually
-// null unless I explicitly populate it. For this assignment, I actually want
-// the raw text of the token (like "#x1", "?flag", "42", or "\"hi\"") to be
-// stored on each AST node. JavaCC always fills t.image with the lexeme, so
-// here I'm explicitly saving t.image into the JJTree node's value.
 
 void idvec ()  :
-{
-  Token t;
-}
-{
-  t = <IDVEC>
-  {
-    // I store the exact name of the vector variable, e.g., "v_x1".
-    jjtThis.jjtSetValue(t.image);
-  }
-}
+{ Token t; }
+{ t = <IDVEC>  { jjtThis.jjtSetValue(t.image); } }
 
 void idnum () :
-{
-  Token t;
-}
-{
-  t = <IDNUM>
-  {
-    // Same idea for numeric identifiers like "#count".
-    // Later, the evaluator can look at this string to know which variable it is.
-    jjtThis.jjtSetValue(t.image);
-  }
-}  
+{ Token t; }
+{ t = <IDNUM>  { jjtThis.jjtSetValue(t.image); } }  
 
 void idbool ()  :
-{
-  Token t;
-}
-{
-  t = <IDBOOL>
-  {
-    // Boolean identifiers, such as "?flag", also keep their spelling here.
-    jjtThis.jjtSetValue(t.image);
-  }
-}
+{ Token t; }
+{ t = <IDBOOL> { jjtThis.jjtSetValue(t.image); } }
 
 void number () :
-{
-  Token t;
-}
-{
-  t = <NUMBER>
-  {
-    // For numbers, I keep the literal digits as a string.
-    // The evaluator can parse this to an integer when it needs to.
-    jjtThis.jjtSetValue(t.image);
-  }
-}
+{ Token t; }
+{ t = <NUMBER> { jjtThis.jjtSetValue(t.image); } }
 
 void string () :
-{
-  Token t;
-}
-{
-  t = <STRING>
-  {
-    // String literals are stored with quotes in the token image.
-    // I keep that here; later, in the evaluator, I can strip the quotes.
-    jjtThis.jjtSetValue(t.image);
-  }
-}
+{ Token t; }
+{ t = <STRING> { jjtThis.jjtSetValue(t.image); } }
+message.txt
+8 KB
