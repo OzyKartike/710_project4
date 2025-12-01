@@ -225,11 +225,11 @@ void println_stat() #Print_ln :
 {}
 { <PRINTLN> (print_list())?
 }
-
 void print_list()	#void :
 {}
 {	
-  (expression() | string() | idbool()) ("," (expression() | string() | idbool()))*
+  (expression() | string() | idbool() | bool_simple())
+  ("," (expression() | string() | idbool() | bool_simple()))*
 }
 
 void assign_stat() #Assign :
@@ -335,15 +335,6 @@ void moreterms() #void :
 | {}
 }
 
-// void expression() #void:
-// {}
-// {	("+" | "-")? product() (("+" | "-") product())*
-// }
-
-// void product()		 :
-// {}
-// {	term() (("*" | "/") term())*
-// }
 
 // use a lookahead to distinguish fn_call from simple_term.
 //    simple_term and fn_calls are quite distinct so factoring would be confusing
@@ -388,28 +379,27 @@ void bool_simple()	#void	 :
 }   
 
 
+//---------------------------   TERMINALS WITH VALUES  --------------------------------------
+
+// ---- LOGICAL CHANGE from version 1: use t.image instead of t.getValue() for AST payloads ----
+// This makes the AST nodes actually store the lexeme text (e.g., "#x1", "?flag", "42", "\"hi\"").
+
 void idvec ()  :
 {Token t;}
-{  (t=<IDVEC>)  {jjtThis.jjtSetValue(t.getValue());}
-}
+{  (t=<IDVEC>)  {jjtThis.jjtSetValue(t.image);} }
 
 void idnum () :
 {Token t;}
-{  (t=<IDNUM>) {jjtThis.jjtSetValue(t.getValue());}
-}  
+{  (t=<IDNUM>) {jjtThis.jjtSetValue(t.image);} }  
 
 void idbool ()  :
 {Token t;}
-{  (t=<IDBOOL>)  {jjtThis.jjtSetValue(t.getValue());}
-}
+{  (t=<IDBOOL>)  {jjtThis.jjtSetValue(t.image);} }
 
 void number () :
 {Token t;}
-{  t=<NUMBER>  {jjtThis.jjtSetValue(t.getValue());}
-}
+{  t=<NUMBER>  {jjtThis.jjtSetValue(t.image);} }
 
 void string () :
 {Token t;}
-{  t=<STRING>  {jjtThis.jjtSetValue(t.getValue());}
-}
-   
+{  t=<STRING>  {jjtThis.jjtSetValue(t.image);} }
