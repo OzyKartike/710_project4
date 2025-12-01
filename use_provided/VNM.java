@@ -149,7 +149,6 @@ void body()		 :
 void clause()		 :
 {}
 {	(statement() ";")+
-// Note: clause requires at least one statement, body allows zero or more.
 }
 
 //---------------------------   DECLARATIONS ------------------------------------------------
@@ -225,29 +224,19 @@ void println_stat() #Print_ln :
 }
 
 // *** FIXED: allow bool_simple (TRUE/FALSE) in print_list ***
-// In the original version of this language, PRINT could only handle expressions,
-// strings, and boolean identifiers. In this lab, I wanted to also be able to
-// print raw boolean literals (#1 / #0). To make that work, I added bool_simple()
-// into the allowed alternatives. This keeps the overall structure the same
-// (a comma-separated list), but slightly widens what each element can be.
 void print_list() #void :
 {}
 {
-  // First printable item
-  (
-    expression()
+  ( expression()
   | string()
   | idbool()
-  | bool_simple()     // my addition: this includes TRUE/FALSE tokens as well
+  | bool_simple()
   )
-  // Zero or more ", <item>" after
-  (
-    ","
-    (
-      expression()
+  ( ","
+    ( expression()
     | string()
     | idbool()
-    | bool_simple()   // same extended set for subsequent items
+    | bool_simple()
     )
   )*
 }
@@ -397,71 +386,23 @@ void bool_simple()	#void	 :
 //---------------------------   TERMINALS WITH VALUES  --------------------------------------
 
 // *** FIXED: use t.image instead of t.getValue() everywhere ***
-// In the original skeleton, the terminals used t.getValue(), which is usually
-// null unless I explicitly populate it. For this assignment, I actually want
-// the raw text of the token (like "#x1", "?flag", "42", or "\"hi\"") to be
-// stored on each AST node. JavaCC always fills t.image with the lexeme, so
-// here I'm explicitly saving t.image into the JJTree node's value.
 
 void idvec ()  :
-{
-  Token t;
-}
-{
-  t = <IDVEC>
-  {
-    // I store the exact name of the vector variable, e.g., "v_x1".
-    jjtThis.jjtSetValue(t.image);
-  }
-}
+{ Token t; }
+{ t = <IDVEC>  { jjtThis.jjtSetValue(t.image); } }
 
 void idnum () :
-{
-  Token t;
-}
-{
-  t = <IDNUM>
-  {
-    // Same idea for numeric identifiers like "#count".
-    // Later, the evaluator can look at this string to know which variable it is.
-    jjtThis.jjtSetValue(t.image);
-  }
-}  
+{ Token t; }
+{ t = <IDNUM>  { jjtThis.jjtSetValue(t.image); } }  
 
 void idbool ()  :
-{
-  Token t;
-}
-{
-  t = <IDBOOL>
-  {
-    // Boolean identifiers, such as "?flag", also keep their spelling here.
-    jjtThis.jjtSetValue(t.image);
-  }
-}
+{ Token t; }
+{ t = <IDBOOL> { jjtThis.jjtSetValue(t.image); } }
 
 void number () :
-{
-  Token t;
-}
-{
-  t = <NUMBER>
-  {
-    // For numbers, I keep the literal digits as a string.
-    // The evaluator can parse this to an integer when it needs to.
-    jjtThis.jjtSetValue(t.image);
-  }
-}
+{ Token t; }
+{ t = <NUMBER> { jjtThis.jjtSetValue(t.image); } }
 
 void string () :
-{
-  Token t;
-}
-{
-  t = <STRING>
-  {
-    // String literals are stored with quotes in the token image.
-    // I keep that here; later, in the evaluator, I can strip the quotes.
-    jjtThis.jjtSetValue(t.image);
-  }
-}
+{ Token t; }
+{ t = <STRING> { jjtThis.jjtSetValue(t.image); } }
